@@ -1,31 +1,24 @@
-.section {
-  margin: 0;
-  padding: 0;
-}
-
-.svg {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 0;
-}
-
 .jumbotron {
   padding-top: 6rem;
   background-color: #b7bdf8;
-  margin-bottom: 0;
-}
-
-#about {
-  margin-top: 0;
 }
 
 #projects {
   background-color: #b7bdf8;
-  margin-top: 0;
+}
+.card-img-top {
+  transition: transform 0.3s;
 }
 
-#contact {
-  margin-top: 0;
+.card-img-top:hover {
+  transform: scale(1.05);
+}
+
+.nav-link {
+  transition: color 0.3s, transform 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffcc00;
+  transform: scale(1.1);
 }
